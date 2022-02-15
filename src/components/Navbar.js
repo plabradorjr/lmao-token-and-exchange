@@ -6,7 +6,12 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand" href="#/">$LMAO Token Exchange 😭 </a><a>[KOVAN testnet only]</a>
+        <div className='col'>
+          <a className="navbar-brand" href="#/">$LMAO Token Exchange</a>
+        </div>
+        <div className='col'>
+          <a className="navbar-brand text-warning" href="#/">(kovan testnet only)</a>
+        </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
